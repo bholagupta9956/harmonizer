@@ -1,0 +1,78 @@
+.kwhCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.kwhsm{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px;
+    width: 100%
+}
+.kwhsm h4{
+    font-weight: bold ;
+    font-size: 23px;
+    padding: 8px 24px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.kwhsmbox{
+    display: flex;
+}
+
+.kwhsmbox h6{
+   width: 220px;
+    border: 1px solid grey;
+    text-align: left;
+    font-weight: bold;
+    padding: 6px 25px;
+}
+.kwhsmbox h5:first-child , .kwhsmbox h6:first-child{
+    width: 80px;
+    padding: 6px 10px;
+}
+.kwhsmbox h5:last-child , .kwhsmbox h6:last-child{
+    width: 120px;
+    padding: 6px 10px;
+}
+
+.kwhsmbox h5{
+    width: 220px;
+    border: 1px solid grey;
+    text-align: left;
+    font-size: 15px;
+    padding: 6px 25px;
+}
+
+.top5Cont{
+    width: 100%;
+   
+}
+
+.top5BtnCont{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top5Btn{
+    display: flex;
+}
+
+.top5Btn h6 {
+    padding:  8px 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    margin: 8px 18px;
+}
+
+
+
+
+
+

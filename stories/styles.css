@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.barCont {
+    width: 50%;
+    border-radius: 6px;
+    margin: 0px 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.barCont2 {
+    width: 95%;
+    border-radius: 6px;
+    margin: 0px 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inputDate{
+    border: 1px solid grey;
+    padding: 8px 15px;
+    margin: 12px 15px;
+    height: 50px;
+}
+.inputDate2{
+    border: 1px solid grey;
+    padding: 8px 15px;
+    margin: 12px 0px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.totalCont{
+    margin-top: 10px;
+}
+
+.totalCont1{
+    display: flex;
+    border: 1px solid grey;
+    padding: 6px 5px;
+    margin-left: 10px;
+}
+
+.title {
+    width: 120px;
+    font-weight: bold;
+}
+
+.totalCont1 h6{
+   margin-right: 10px;
+}

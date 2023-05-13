@@ -1,0 +1,9 @@
+.stackCont{
+    height: 600px ;
+    overflow-y: scroll !important;
+}
+
+.headerLogo {
+    width: 12rem;
+  
+}

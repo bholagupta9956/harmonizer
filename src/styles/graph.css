@@ -1,0 +1,15 @@
+
+.graphCont{
+   margin: 23px 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.barGraph{
+    width: 100% !important;
+    height: 100% !important;
+    padding: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    display: flex;
+    align-self:  center;
+}

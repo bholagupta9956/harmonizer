@@ -1,0 +1,63 @@
+.wrMinerals{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+   
+    
+    padding: 20px 10px;
+}
+
+.wrLeft {
+    width: 49% ;
+    background-color: white;
+    padding: 40px 4px;
+}
+.wrRight{
+    width: 50% ;
+    background-color: white;
+    padding: 40px 4px;
+}
+
+.SearchApp{
+    width: 100%;
+    padding: 12px 10px;
+    position: relative;
+}
+
+.seachOuter{
+    width: 300px;
+    padding: 8px 8px;
+    border: 1px solid rgb(174, 171, 171);
+  
+}
+
+.seachOuter input{
+    width: 100%;
+    outline: none;
+}
+
+.searchlist{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(165, 161, 161);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+   top: 76%;
+   background-color: white;
+    left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 100;
+}
+.searchlist ul li {
+   
+    width: 100%;
+    padding: 4px 10px;
+    border-bottom: 1px solid rgb(213, 209, 209);
+    cursor: pointer;
+}
+
+.searchlist ul li:hover {
+    background-color: rgb(234, 231, 231);
+}
